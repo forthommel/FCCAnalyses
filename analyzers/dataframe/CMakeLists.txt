@@ -3,24 +3,32 @@ find_package(ROOT REQUIRED COMPONENTS ROOTDataFrame ROOTVecOps TMVA)
 include(${ROOT_USE_FILE})
 #include("${ROOT_DIR}/modules/RootNewMacros.cmake")
 
-
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake ${CMAKE_MODULE_PATH})
 
 get_target_property(EDM4HEP_INCLUDE_DIRS EDM4HEP::edm4hep INTERFACE_INCLUDE_DIRECTORIES)
 
-include_directories(${EDM4HEP_INCLUDE_DIRS} 
-		    ${podio_INCLUDE_DIR} 
-                    ${FASTJET_INCLUDE_DIR} 
+include_directories(${EDM4HEP_INCLUDE_DIRS}
+		    ${podio_INCLUDE_DIR}
+                    ${FASTJET_INCLUDE_DIR}
 		    ${acts_INCLUDE_DIR}
 		    ${AWKWARD_INCLUDE}
 		    #${Boost_INCLUDE_DIRS}
 		    )
 
-message(STATUS "includes-------------------------- dataframe awkward: ${AWKWARD_INCLUDE}")
-message(STATUS "includes-------------------------- dataframe edm4hep: ${EDM4HEP_INCLUDE_DIRS}")
-message(STATUS "includes-------------------------- dataframe podio  : ${podio_INCLUDE_DIR}")
-message(STATUS "includes-------------------------- dataframe fastjet: ${FASTJET_INCLUDE_DIRS}")
+message(STATUS "includes-------------------------- dataframe awkward:     ${AWKWARD_INCLUDE}")
+message(STATUS "includes-------------------------- dataframe edm4hep:     ${EDM4HEP_INCLUDE_DIRS}")
+message(STATUS "includes-------------------------- dataframe podio  :     ${podio_INCLUDE_DIR}")
+message(STATUS "includes-------------------------- dataframe fastjet:     ${FASTJET_INCLUDE_DIRS}")
 
+set(EXTRA_INCLUDE_DIRS)
+set(EXTRA_LIBRARIES)
+
+find_package(ONNXRuntime)
+if(ONNXRuntime_FOUND)
+    message(STATUS "includes-------------------------- dataframe onnxruntime: ${ONNXRUNTIME_INCLUDE_DIRS}")
+    list(APPEND EXTRA_INCLUDE_DIRS ${ONNXRUNTIME_INCLUDE_DIRS})
+    list(APPEND EXTRA_LIBRARIES ${ONNXRUNTIME_LIBRARIES})
+endif()
 
 
 ROOT_GENERATE_DICTIONARY(G__FCCAnalyses dummyLoader.h
@@ -35,7 +43,7 @@ ROOT_GENERATE_DICTIONARY(G__FCCAnalyses dummyLoader.h
 					ValenciaPlugin.h
 					VertexingUtils.h
 					VertexFitterSimple.h
-					VertexFinderActs.h					
+					VertexFinderActs.h
 					VertexFitterActs.h
 					awkwardtest.h
 					myUtils.h
@@ -51,22 +59,24 @@ target_include_directories(FCCAnalyses  PUBLIC
                            ${FCCEDM_INCLUDE_DIRS}
 	                   ${FASTJET_INCLUDE_DIR}
 		           ${acts_INCLUDE_DIR}
-			   ${AWKWARD_INCLUDE})
+			   ${AWKWARD_INCLUDE}
+			   ${EXTRA_INCLUDE_DIRS})
 
-target_link_libraries(FCCAnalyses 
-                      ROOT::Physics 
-		      ROOT::MathCore 
+target_link_libraries(FCCAnalyses
+                      ROOT::Physics
+		      ROOT::MathCore
 		      ROOT::ROOTVecOps
 		      ROOT::ROOTDataFrame
 		      ROOT::TMVA
-		      EDM4HEP::edm4hep 
-		      EDM4HEP::edm4hepDict 
-		      podio::podio 
+		      EDM4HEP::edm4hep
+		      EDM4HEP::edm4hepDict
+		      podio::podio
 		      ${FASTJET_LIBRARY} fastjetplugins
 		      ${acts_LIBRARY} ActsCore
 		      #${AWKWARD_LIBRARIES}
 		      ${LIBAWKWARD}
-		      ${CPU-KERNELS} ${LIBDL})
+		      ${CPU-KERNELS} ${LIBDL}
+		      ${EXTRA_LIBRARIES})
 
 
 
