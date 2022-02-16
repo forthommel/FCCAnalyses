@@ -22,12 +22,15 @@ message(STATUS "includes-------------------------- dataframe fastjet:     ${FAST
 
 set(EXTRA_INCLUDE_DIRS)
 set(EXTRA_LIBRARIES)
+set(EXTRA_ROOT_INCLUDES)
 
 find_package(ONNXRuntime)
 if(ONNXRuntime_FOUND)
     message(STATUS "includes-------------------------- dataframe onnxruntime: ${ONNXRUNTIME_INCLUDE_DIRS}")
     list(APPEND EXTRA_INCLUDE_DIRS ${ONNXRUNTIME_INCLUDE_DIRS})
     list(APPEND EXTRA_LIBRARIES ${ONNXRUNTIME_LIBRARIES})
+    list(APPEND EXTRA_ROOT_INCLUDES ONNXRuntime.h)
+    include_directories(${ONNXRUNTIME_INCLUDE_DIRS})
 endif()
 
 
@@ -49,6 +52,7 @@ ROOT_GENERATE_DICTIONARY(G__FCCAnalyses dummyLoader.h
 					myUtils.h
 					myFinalSel.h
 					CaloNtupleizer.h
+                                        ${EXTRA_ROOT_INCLUDES}
 					LINKDEF LinkDef.h)
 
 file(GLOB sources *.cc)
