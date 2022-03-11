@@ -29,7 +29,6 @@ if(ONNXRuntime_FOUND)
     message(STATUS "includes-------------------------- dataframe onnxruntime: ${ONNXRUNTIME_INCLUDE_DIRS}")
     list(APPEND EXTRA_INCLUDE_DIRS ${ONNXRUNTIME_INCLUDE_DIRS})
     list(APPEND EXTRA_LIBRARIES ${ONNXRUNTIME_LIBRARIES})
-    list(APPEND EXTRA_ROOT_INCLUDES ONNXRuntime.h)
     include_directories(${ONNXRUNTIME_INCLUDE_DIRS})
 endif()
 
@@ -55,9 +54,14 @@ ROOT_GENERATE_DICTIONARY(G__FCCAnalyses dummyLoader.h
                                         ${EXTRA_ROOT_INCLUDES}
 					LINKDEF LinkDef.h)
 
+REFLEX_GENERATE_DICTIONARY(G__FCCAnalysesExt ONNXRuntime.h SELECTION selection.xml OPTIONS "-O")
+
 file(GLOB sources *.cc)
+file(GLOB onnx_src ONNXRuntime.cc)
+list(REMOVE_ITEM sources ${onnx_src})
 file(GLOB headers *.h)
-add_library(FCCAnalyses SHARED ${sources} ${headers} G__FCCAnalyses.cxx )
+add_library(FCCAnalyses SHARED ${sources} ${headers} G__FCCAnalyses.cxx G__FCCAnalysesExt.cxx)
+add_dependencies(FCCAnalyses G__FCCAnalysesExt-dictgen)
 target_include_directories(FCCAnalyses  PUBLIC
                            ${CMAKE_SOURCE_DIR}/analyzers/dataframe
                            ${FCCEDM_INCLUDE_DIRS}
