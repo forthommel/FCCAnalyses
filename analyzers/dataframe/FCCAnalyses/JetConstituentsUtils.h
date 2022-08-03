@@ -27,7 +27,8 @@ namespace FCCAnalyses {
     rv::RVec<FCCAnalysesJetConstituentsData> get_phi(const rv::RVec<FCCAnalysesJetConstituents>&);
     rv::RVec<FCCAnalysesJetConstituentsData> get_type(const rv::RVec<FCCAnalysesJetConstituents>&);
     rv::RVec<FCCAnalysesJetConstituentsData> get_charge(const rv::RVec<FCCAnalysesJetConstituents>&);
-    //rv::RVec<FCCAnalysesJetConstituentsData> get_dptdpt(const rv::RVec<FCCAnalysesJetConstituents>, const ROOT::VecOps::RVec<edm4hep::TrackState>);
+    rv::RVec<FCCAnalysesJetConstituentsData> get_dptdpt(const rv::RVec<FCCAnalysesJetConstituents>,
+                                                        const ROOT::VecOps::RVec<edm4hep::TrackState>);
     //rv::RVec<FCCAnalysesJetConstituentsData> get_dptdpt(const rv::RVec<FCCAnalysesJetConstituents>);
 
     rv::RVec<FCCAnalysesJetConstituentsData> get_erel_log(rv::RVec<edm4hep::ReconstructedParticleData>& jets,
