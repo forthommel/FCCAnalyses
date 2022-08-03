@@ -70,11 +70,7 @@ class RDFanalysis():
         df2 = (
             df
             # retrieve all information about jet constituents for each jet in collection
-            # .Define("JetsConstituents", "JetConstituentsUtils::build_constituents(Jet, ReconstructedParticles)")
-            .Define(
-                "JetsConstituents",
-                "JetConstituentsUtils::build_constituents(Jet, ReconstructedParticles)",
-            )
+            .Define("JetsConstituents", "JetConstituentsUtils::build_constituents(Jet, ReconstructedParticles)")
             .Define("JC_erel_log", "JetConstituentsUtils::get_erel_log(Jet, JetsConstituents)")
             .Define("JC_thetarel", "JetConstituentsUtils::get_thetarel(Jet, JetsConstituents)")
             .Define("JC_phirel", "JetConstituentsUtils::get_phirel(Jet, JetsConstituents)")
@@ -116,7 +112,7 @@ class RDFanalysis():
                 "MVAVec",
                 "JetFlavourUtils::get_weights(\
                     JC_erel_log,\
-            	    JC_thetarel,\
+                    JC_thetarel,\
                     JC_phirel,\
                     JC_dptdpt,\
                     JC_detadeta,\
@@ -151,8 +147,8 @@ class RDFanalysis():
                     JC_btagJetDistVal,\
                     JC_btagJetDistSig\
                 )",
-            )              
-         
+            )
+
             # recast output
             .Define("Jet_isG", "JetFlavourUtils::get_weight(MVAVec, 0)")
             .Define("Jet_isQ", "JetFlavourUtils::get_weight(MVAVec, 1)")

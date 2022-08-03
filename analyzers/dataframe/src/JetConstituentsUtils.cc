@@ -39,14 +39,14 @@ namespace FCCAnalyses {
       return out;
     };
 
+    /// recasting helper for jet constituents and external collection methods
+    /// \param[in] jcs collection of jets constituents
+    /// \param[in] coll additional collection to search in
+    /// \param[in] meth variables retrieval method for constituents
     auto cast_constituent_2 = [](const auto& jcs, const auto& coll, auto&& meth) {
-      //auto cast_constituent_2 = [](const auto& jcs, auto&& meth) {
       rv::RVec<FCCAnalysesJetConstituentsData> out;
-      for (const auto& jc : jcs) {
-        //std::cout<<"new jet:  " <<jc.size()<<std::endl;
+      for (const auto& jc : jcs)
         out.emplace_back(meth(jc, coll));
-        //out.emplace_back(meth(jc));
-      }
       return out;
     };
 
@@ -74,12 +74,13 @@ namespace FCCAnalyses {
       return cast_constituent(jcs, ReconstructedParticle::get_charge);
     }
 
-    rv::RVec<FCCAnalysesJetConstituentsData> get_dptdpt(const rv::RVec<FCCAnalysesJetConstituents> jcs, ROOT::VecOps::RVec<edm4hep::TrackState> tracks ) {
+    rv::RVec<FCCAnalysesJetConstituentsData> get_dptdpt(const rv::RVec<FCCAnalysesJetConstituents>& jcs,
+                                                        const ROOT::VecOps::RVec<edm4hep::TrackState>& tracks) {
       return cast_constituent_2(jcs, tracks, ReconstructedParticle2Track::getRP2TRK_omega_cov);
     }
 
-    rv::RVec<FCCAnalysesJetConstituentsData> get_erel_log(rv::RVec<edm4hep::ReconstructedParticleData>& jets,
-                                                          rv::RVec<FCCAnalysesJetConstituents>& jcs) {
+    rv::RVec<FCCAnalysesJetConstituentsData> get_erel_log(const rv::RVec<edm4hep::ReconstructedParticleData>& jets,
+                                                          const rv::RVec<FCCAnalysesJetConstituents>& jcs) {
       rv::RVec<FCCAnalysesJetConstituentsData> out;
       for (size_t i = 0; i < jets.size(); ++i) {
         auto& jet_csts = out.emplace_back();
