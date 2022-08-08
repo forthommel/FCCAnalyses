@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1659964310392,
+  "lastUpdate": 1659964313021,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -1557,6 +1557,45 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "52c7c07979057f93e030496eb572d862c2b770c4",
+          "message": "Moved ValenciaPlugin to a new FastJet addon package",
+          "timestamp": "2022-08-08T14:46:36+02:00",
+          "tree_id": "e7e5cb17825716c32d377aaa44a13927290a90bd",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/52c7c07979057f93e030496eb572d862c2b770c4"
+        },
+        "date": 1659964311811,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 7.359954033978483,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 5.913388475091353,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 7.087508074045066,
+            "unit": "Evt/s"
           }
         ]
       }
