@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1659993601395,
+  "lastUpdate": 1659993603895,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -3069,6 +3069,45 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "6c8dd1c7d47e772dc0d7aaa28d0efaf063544468",
+          "message": "Moved ExternalRecombiner to FastJet add-on",
+          "timestamp": "2022-08-08T23:09:57+02:00",
+          "tree_id": "c5a26e6634de35676e7684a681a7a978b008e677",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/6c8dd1c7d47e772dc0d7aaa28d0efaf063544468"
+        },
+        "date": 1659993603075,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 7.6628281371955325,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 6.215584749957399,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/test",
+            "value": 8.03364462567251,
+            "unit": "Evt/s"
           }
         ]
       }
