@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1659965701777,
+  "lastUpdate": 1659965704745,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -1641,6 +1641,45 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lforthomme@protonmail.com",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6eb7b0e51215108a208707597e5b45212edb63a9",
+          "message": "Addons refactoring (#194)\n\n* First attempt to factorise addons from core FCCAnalysis framework\r\n\r\n* First compiling and running version with new addons scheme\r\n\r\n* Added unit test and integration test in workflow\r\n\r\n* Added a new FCCAnalysesFunction set of macros/functions\r\n\r\n* Update addons/ONNXRuntime/CMakeLists.txt\r\n\r\nCo-authored-by: Valentin Volkl <valentin.volkl@cern.ch>\r\n\r\n* Fixed behaviour with WITH_ONNX=OFF\r\n\r\nCo-authored-by: Valentin Volkl <valentin.volkl@cern.ch>",
+          "timestamp": "2022-08-08T14:54:26+02:00",
+          "tree_id": "8746e19a409f4b6817f62fceafc26b0e9950b4f1",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/6eb7b0e51215108a208707597e5b45212edb63a9"
+        },
+        "date": 1659965703521,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 6.9060001299761895,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 5.461214864792126,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 7.073672661408659,
+            "unit": "Evt/s"
           }
         ]
       }
