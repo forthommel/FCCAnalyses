@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1659954922837,
+  "lastUpdate": 1659954924995,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -1473,6 +1473,45 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lforthomme@protonmail.com",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f8e08fbda80d60d8a79c918f4f7b069a0a79bc33",
+          "message": "Update addons/ONNXRuntime/CMakeLists.txt\n\nCo-authored-by: Valentin Volkl <valentin.volkl@cern.ch>",
+          "timestamp": "2022-08-08T12:09:32+02:00",
+          "tree_id": "ae980e5dc4115b46cade0619171067fb58a8978e",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/f8e08fbda80d60d8a79c918f4f7b069a0a79bc33"
+        },
+        "date": 1659954924261,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 7.743325553461341,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 6.512655646273589,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 7.949818559585532,
+            "unit": "Evt/s"
           }
         ]
       }
