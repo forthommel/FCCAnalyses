@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1659976584010,
+  "lastUpdate": 1659976586903,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -2061,6 +2061,45 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "2b960c480d2a91a17fbb842dc2644a84837d87c5",
+          "message": "Exception thrown if ONNX model path is left empty",
+          "timestamp": "2022-08-08T18:24:12+02:00",
+          "tree_id": "ad2e8a1e68cb823bfc281e6df30f09d74e003f5f",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/2b960c480d2a91a17fbb842dc2644a84837d87c5"
+        },
+        "date": 1659976585679,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 7.493222733711845,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 5.887951200873196,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 7.089781449577399,
+            "unit": "Evt/s"
           }
         ]
       }
