@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660070135967,
+  "lastUpdate": 1660070137969,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -5337,6 +5337,45 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "31229b828020a5e2eb9ae2c01d4a36b1bca55f18",
+          "message": "Made the analysis package building a macro that can be reused for standalone object compilation",
+          "timestamp": "2022-08-09T20:25:08+02:00",
+          "tree_id": "2db72443e2d88070d919a315abcec00dbf23e926",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/31229b828020a5e2eb9ae2c01d4a36b1bca55f18"
+        },
+        "date": 1660070137256,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 6.767524188918412,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 5.282845119542725,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 6.920969266110808,
+            "unit": "Evt/s"
           }
         ]
       }
