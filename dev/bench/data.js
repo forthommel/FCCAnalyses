@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660036098523,
+  "lastUpdate": 1660036165178,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -3528,6 +3528,51 @@ window.BENCHMARK_DATA = {
             "name": "nightly | Events processed per second: examples/FCCee/test",
             "value": 7.8681337827961935,
             "unit": "Evt/s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "e5b7b1e11cc50c092a64b49cd610ce9051a4322a",
+          "message": "Moved ExternalRecombiner to FastJet add-on",
+          "timestamp": "2022-08-09T10:47:12+02:00",
+          "tree_id": "c37f2fa9dce21d1ad02146da7944db84d05c0f3f",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/e5b7b1e11cc50c092a64b49cd610ce9051a4322a"
+        },
+        "date": 1660036161999,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Time spent running the analysis: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 14.379327297210693,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/higgs/mH-recoil/mumu"
+          },
+          {
+            "name": "prod | Time spent running the analysis: examples/FCCee/flavour/Bc2TauNu",
+            "value": 20.119422435760498,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/flavour/Bc2TauNu"
+          },
+          {
+            "name": "prod | Time spent running the analysis: examples/FCCee/test",
+            "value": 15.347164630889893,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/test"
           }
         ]
       }
