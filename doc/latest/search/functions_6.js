@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['gamma_0',['gamma',['../classcontrib_1_1_valencia_info.html#af78cbe09edcd473fbffc71b6c82b892a',1,'contrib::ValenciaInfo::gamma()'],['../classcontrib_1_1_valencia_plugin.html#ad8b8c24f55904e1f4c8eac5c1c5d0402',1,'contrib::ValenciaPlugin::gamma()']]],
+  ['gamma_0',['gamma',['../classcontrib_1_1_valencia_plugin.html#ad8b8c24f55904e1f4c8eac5c1c5d0402',1,'contrib::ValenciaPlugin::gamma()'],['../classcontrib_1_1_valencia_info.html#af78cbe09edcd473fbffc71b6c82b892a',1,'contrib::ValenciaInfo::gamma()']]],
   ['get_1',['get',['../namespace_f_c_c_analyses_1_1_reconstructed_particle.html#ae59881aa2caf5152af31e287b59aef23',1,'FCCAnalyses::ReconstructedParticle']]],
   ['get_5fave_2',['get_ave',['../namespace_f_c_c_analyses_1_1my_final_sel.html#a40181d2de5a12033ab4eda7d78630abb',1,'FCCAnalyses::myFinalSel::get_ave(ROOT::VecOps::RVec&lt; float &gt; in, ROOT::VecOps::RVec&lt; int &gt; ispv, int index)'],['../namespace_f_c_c_analyses_1_1my_final_sel.html#a7e4ff88af52526e989087095815f2a4c',1,'FCCAnalyses::myFinalSel::get_ave(ROOT::VecOps::RVec&lt; float &gt; in, float val)']]],
   ['get_5fbtag_3',['get_btag',['../namespace_f_c_c_analyses_1_1_jet_tagging_utils.html#ae0d39203ecee28854109852030a44262',1,'FCCAnalyses::JetTaggingUtils']]],
@@ -109,8 +109,8 @@ var searchData=
   ['get_5fvertex_5fy_106',['get_vertex_y',['../namespace_f_c_c_analyses_1_1_m_c_particle.html#a80f988e2f7d7c7ee354985f1941365b5',1,'FCCAnalyses::MCParticle']]],
   ['get_5fvertex_5fy_107',['get_Vertex_y',['../namespace_f_c_c_analyses_1_1my_utils.html#ad96e1b602ea7ad4c08a3520019b84ec2',1,'FCCAnalyses::myUtils']]],
   ['get_5fvertex_5fyerr_108',['get_Vertex_yErr',['../namespace_f_c_c_analyses_1_1my_utils.html#ac156bf066c768ac4b3965d3e8f087469',1,'FCCAnalyses::myUtils']]],
-  ['get_5fvertex_5fz_109',['get_Vertex_z',['../namespace_f_c_c_analyses_1_1my_utils.html#a0d13f34fa27040f4db32bcf0ffe70319',1,'FCCAnalyses::myUtils']]],
-  ['get_5fvertex_5fz_110',['get_vertex_z',['../namespace_f_c_c_analyses_1_1_m_c_particle.html#afbf2867627c722ced4cef628546b65ef',1,'FCCAnalyses::MCParticle']]],
+  ['get_5fvertex_5fz_109',['get_vertex_z',['../namespace_f_c_c_analyses_1_1_m_c_particle.html#afbf2867627c722ced4cef628546b65ef',1,'FCCAnalyses::MCParticle']]],
+  ['get_5fvertex_5fz_110',['get_Vertex_z',['../namespace_f_c_c_analyses_1_1my_utils.html#a0d13f34fa27040f4db32bcf0ffe70319',1,'FCCAnalyses::myUtils']]],
   ['get_5fvertex_5fzerr_111',['get_Vertex_zErr',['../namespace_f_c_c_analyses_1_1my_utils.html#aeca685c9abe2c442e6350500cfed8c1c',1,'FCCAnalyses::myUtils']]],
   ['get_5fvertexdata_112',['get_VertexData',['../namespace_f_c_c_analyses_1_1_vertexing_utils.html#a4dad66416e90d010e78de67ac3283f15',1,'FCCAnalyses::VertexingUtils::get_VertexData(FCCAnalysesVertex TheVertex)'],['../namespace_f_c_c_analyses_1_1_vertexing_utils.html#a1415bce1dfaa0c53c2cae4950748338e',1,'FCCAnalyses::VertexingUtils::get_VertexData(ROOT::VecOps::RVec&lt; FCCAnalysesVertex &gt; TheVertexColl)'],['../namespace_f_c_c_analyses_1_1_vertexing_utils.html#a0ee263cbc5260bcc46ddf46d586a947c',1,'FCCAnalyses::VertexingUtils::get_VertexData(ROOT::VecOps::RVec&lt; FCCAnalysesVertex &gt; TheVertexColl, int index)']]],
   ['get_5fvertexntrk_113',['get_VertexNtrk',['../namespace_f_c_c_analyses_1_1_vertexing_utils.html#a83b59578968f82452e8ab975482786a3',1,'FCCAnalyses::VertexingUtils']]],

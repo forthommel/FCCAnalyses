@@ -1,7 +1,7 @@
 var searchData=
 [
   ['beam_5fdistance_0',['beam_distance',['../classcontrib_1_1_valencia_brief_jet.html#a2774d561f702ff7c29bca9f8a4edb6a6',1,'contrib::ValenciaBriefJet']]],
-  ['beta_1',['beta',['../classcontrib_1_1_valencia_plugin.html#a8eb43c46c64fb9d34d7fbfb34b3780d9',1,'contrib::ValenciaPlugin::beta()'],['../classcontrib_1_1_valencia_info.html#ad91cadc4f226062684dd1f4c8f87e1c0',1,'contrib::ValenciaInfo::beta()']]],
+  ['beta_1',['beta',['../classcontrib_1_1_valencia_info.html#ad91cadc4f226062684dd1f4c8f87e1c0',1,'contrib::ValenciaInfo::beta()'],['../classcontrib_1_1_valencia_plugin.html#a8eb43c46c64fb9d34d7fbfb34b3780d9',1,'contrib::ValenciaPlugin::beta()']]],
   ['build_5fb2kstee_2',['build_B2Kstee',['../namespace_f_c_c_analyses_1_1my_utils.html#a9aa5b403757fd76c94ae01a32c3b6a70',1,'FCCAnalyses::myUtils']]],
   ['build_5fb2kstmumu_3',['build_B2Kstmumu',['../namespace_f_c_c_analyses_1_1my_utils.html#ac30bf0332f01f18a4423287a1d2a5aff',1,'FCCAnalyses::myUtils']]],
   ['build_5fbd2kstnunu_4',['build_Bd2KstNuNu',['../namespace_f_c_c_analyses_1_1my_utils.html#a66e7451536f7f95805f26e3a6b3ed5e1',1,'FCCAnalyses::myUtils']]],
