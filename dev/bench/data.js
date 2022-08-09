@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660036096813,
+  "lastUpdate": 1660036098523,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -3489,6 +3489,45 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lforthomme@protonmail.com",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ecbd6a0f95ef8d47a667ffda1ed952aeb74e6a26",
+          "message": "Revert \"weaver: run example singlethreaded (#190)\"\n\nThis reverts commit 013e6e0ed27c00854b804434e72abec6dd8b8ced.",
+          "timestamp": "2022-08-09T10:58:59+02:00",
+          "tree_id": "536b1e1a508915d8b2f9cc3cc920f9d07ee7cd4a",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/ecbd6a0f95ef8d47a667ffda1ed952aeb74e6a26"
+        },
+        "date": 1660036097873,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 7.959615904444772,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 6.146323208134106,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 7.8681337827961935,
+            "unit": "Evt/s"
           }
         ]
       }
