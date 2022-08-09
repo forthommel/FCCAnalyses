@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660040179168,
+  "lastUpdate": 1660040235685,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -4116,6 +4116,51 @@ window.BENCHMARK_DATA = {
             "name": "nightly | Events processed per second: examples/FCCee/test",
             "value": 9.215230586741123,
             "unit": "Evt/s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "a8c287f02991207a05b19891db3ebc8fd097726e",
+          "message": "Making search script recursive",
+          "timestamp": "2022-08-09T12:08:10+02:00",
+          "tree_id": "0515cacd1aad57633036d5a8309a1618466ea5d4",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/a8c287f02991207a05b19891db3ebc8fd097726e"
+        },
+        "date": 1660040233941,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Time spent running the analysis: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 11.642454624176025,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/higgs/mH-recoil/mumu"
+          },
+          {
+            "name": "prod | Time spent running the analysis: examples/FCCee/flavour/Bc2TauNu",
+            "value": 15.518661260604858,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/flavour/Bc2TauNu"
+          },
+          {
+            "name": "prod | Time spent running the analysis: examples/FCCee/test",
+            "value": 11.317977666854858,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/test"
           }
         ]
       }
