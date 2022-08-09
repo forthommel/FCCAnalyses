@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660040078497,
+  "lastUpdate": 1660040080033,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -3909,6 +3909,45 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "3709524c4f3171ef8849305c83194fe9447efb3c",
+          "message": "First skeletton of Weaver jet-level input variables storage script",
+          "timestamp": "2022-08-09T12:06:04+02:00",
+          "tree_id": "b54a66f84ff13644e087357dc97d98fbfb0c9c61",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/3709524c4f3171ef8849305c83194fe9447efb3c"
+        },
+        "date": 1660040079677,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 8.928002179688033,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 6.67220448134115,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 8.932500829508083,
+            "unit": "Evt/s"
           }
         ]
       }
