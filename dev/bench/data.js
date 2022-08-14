@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660517414370,
+  "lastUpdate": 1660517416013,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -5860,6 +5860,50 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "49dfa9cc538ea186212370b98085d5b54277667c",
+          "message": "Fix of CI test failure",
+          "timestamp": "2022-08-15T00:41:18+02:00",
+          "tree_id": "9b9663277f37d0662e7fe1aeadcb1aca1d6cc47d",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/49dfa9cc538ea186212370b98085d5b54277667c"
+        },
+        "date": 1660517415482,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: analyses/analysis_example/scripts",
+            "value": 8.078185622326318,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 7.040325771910146,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 4.967942569819023,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/test",
+            "value": 6.946931345111321,
+            "unit": "Evt/s"
           }
         ]
       }
