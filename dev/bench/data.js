@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660571002597,
+  "lastUpdate": 1660571004779,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -7475,6 +7475,55 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lforthomme@protonmail.com",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb11ab8736ad17cf228fa4ca95f05825027cf9ee",
+          "message": "Added a README to the case studies package",
+          "timestamp": "2022-08-15T15:32:29+02:00",
+          "tree_id": "836075663b267bf59e65456f7509a3d473f53dd9",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/bb11ab8736ad17cf228fa4ca95f05825027cf9ee"
+        },
+        "date": 1660571004052,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: /Package/dummy_analysis/scripts",
+            "value": 7.808602061615682,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: case-studies/analysis_example/scripts",
+            "value": 8.363241118832823,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 6.806619598803686,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 5.390019515108431,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 6.83845599116276,
+            "unit": "Evt/s"
           }
         ]
       }
