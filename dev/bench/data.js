@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660571105827,
+  "lastUpdate": 1660571204141,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -7740,6 +7740,65 @@ window.BENCHMARK_DATA = {
             "name": "prod | Events processed per second: examples/FCCee/test",
             "value": 7.675302812119351,
             "unit": "Evt/s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "a5aa5bdf58bd03ce8aaf30a2f1708d9790775fa2",
+          "message": "Handle analysis description",
+          "timestamp": "2022-08-15T15:34:47+02:00",
+          "tree_id": "9da62d1e1710d25cb54a0db5c97f1501363e1629",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/a5aa5bdf58bd03ce8aaf30a2f1708d9790775fa2"
+        },
+        "date": 1660571200834,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Time spent running the analysis: /Package/dummy_analysis/scripts",
+            "value": 10.034425258636475,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: /Package/dummy_analysis/scripts"
+          },
+          {
+            "name": "prod | Time spent running the analysis: case-studies/analysis_example/scripts",
+            "value": 9.856193780899048,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: case-studies/analysis_example/scripts"
+          },
+          {
+            "name": "prod | Time spent running the analysis: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 11.496405124664307,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/higgs/mH-recoil/mumu"
+          },
+          {
+            "name": "prod | Time spent running the analysis: examples/FCCee/flavour/Bc2TauNu",
+            "value": 15.16137981414795,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/flavour/Bc2TauNu"
+          },
+          {
+            "name": "prod | Time spent running the analysis: examples/FCCee/test",
+            "value": 12.36950945854187,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/test"
           }
         ]
       }
