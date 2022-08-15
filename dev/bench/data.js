@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660571204141,
+  "lastUpdate": 1660571205690,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -7799,6 +7799,55 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "a5aa5bdf58bd03ce8aaf30a2f1708d9790775fa2",
+          "message": "Handle analysis description",
+          "timestamp": "2022-08-15T15:34:47+02:00",
+          "tree_id": "9da62d1e1710d25cb54a0db5c97f1501363e1629",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/a5aa5bdf58bd03ce8aaf30a2f1708d9790775fa2"
+        },
+        "date": 1660571205146,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: /Package/dummy_analysis/scripts",
+            "value": 9.965692844633184,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: case-studies/analysis_example/scripts",
+            "value": 10.145904415332868,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 8.69837126611524,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 6.595705748805547,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/test",
+            "value": 8.084394966119222,
+            "unit": "Evt/s"
           }
         ]
       }
