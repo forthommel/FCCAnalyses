@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660525646037,
+  "lastUpdate": 1660525647287,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -6340,6 +6340,50 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "214ea331e16c6c7566ad2830e212228363224966",
+          "message": "Sourcing setup.sh before setting up analysis",
+          "timestamp": "2022-08-15T02:58:39+02:00",
+          "tree_id": "5042a9c32e13df9c16f32328e7022f2b2d7bf1e1",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/214ea331e16c6c7566ad2830e212228363224966"
+        },
+        "date": 1660525646888,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: analyses/analysis_example/scripts",
+            "value": 10.345740234380877,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 8.315614368633572,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 6.234282300988568,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 8.431302937694072,
+            "unit": "Evt/s"
           }
         ]
       }
