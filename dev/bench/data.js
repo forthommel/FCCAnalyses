@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660530225304,
+  "lastUpdate": 1660530228050,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -7077,6 +7077,45 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "4e0f341a59b523c303defff4d1945281605aea2a",
+          "message": "Working version with JetClustering stripped off FCCAnalyses main package",
+          "timestamp": "2022-08-15T04:12:33+02:00",
+          "tree_id": "a94a8d287d59ba1735b3f5a5785a3277b5903514",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/4e0f341a59b523c303defff4d1945281605aea2a"
+        },
+        "date": 1660530226800,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 6.433935139804539,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 5.00549878751953,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/test",
+            "value": 6.65561666832807,
+            "unit": "Evt/s"
           }
         ]
       }
