@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1660527017770,
+  "lastUpdate": 1660527019192,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -6801,6 +6801,45 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "lforthomme@protonmail.com",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "88a22ddf809804c58c2244324ed9a203beca9b21",
+          "message": "Update Doxyfile.in (#198)\n\nAdded the new `addons` directory introduced in #194 to the sources search path.",
+          "timestamp": "2022-08-09T11:40:36+02:00",
+          "tree_id": "4f53be1c9b01b9e990211a594ba40466171adc92",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/88a22ddf809804c58c2244324ed9a203beca9b21"
+        },
+        "date": 1660527018831,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 7.809431362857212,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 6.435889096830477,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/test",
+            "value": 8.046186906587566,
+            "unit": "Evt/s"
           }
         ]
       }
