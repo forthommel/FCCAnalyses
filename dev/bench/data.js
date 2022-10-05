@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664964674284,
+  "lastUpdate": 1664964676141,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -8015,6 +8015,55 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: /Package/dummy_analysis/scripts"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "102e2c0142b6caae414d9d6eca09dddc50bcdc54",
+          "message": "Stripped build_new_case_study test out of analysis_example case study package",
+          "timestamp": "2022-10-05T11:58:09+02:00",
+          "tree_id": "264b0b37b0ecc0f354b1b4ee919333e5208955b7",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/102e2c0142b6caae414d9d6eca09dddc50bcdc54"
+        },
+        "date": 1664964675458,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: case-studies/analysis_example/scripts",
+            "value": 7.335727468478772,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 6.302876497068864,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 4.668318267856678,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 6.750490936279952,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: /Package/dummy_analysis/scripts",
+            "value": 7.84387738480818,
+            "unit": "Evt/s"
           }
         ]
       }
