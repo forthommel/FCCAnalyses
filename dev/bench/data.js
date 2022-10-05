@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664970075736,
+  "lastUpdate": 1664970077274,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -8339,6 +8339,55 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: /Package/dummy_analysis/scripts"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "265179d2829db3a2cc44d3b5db97fa226beb6c59",
+          "message": "Renamed a few templated variables names",
+          "timestamp": "2022-10-05T13:31:30+02:00",
+          "tree_id": "970c8211225631f6bda636670acc9dae201c09ff",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/265179d2829db3a2cc44d3b5db97fa226beb6c59"
+        },
+        "date": 1664970076893,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: case-studies/analysis_example/scripts",
+            "value": 9.460920669433653,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 8.406881533977515,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 6.372435540778572,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/test",
+            "value": 8.172771320725834,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: /Package/dummy_analysis/scripts",
+            "value": 10.266147848493508,
+            "unit": "Evt/s"
           }
         ]
       }
