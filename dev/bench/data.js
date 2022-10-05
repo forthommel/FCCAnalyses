@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664970085306,
+  "lastUpdate": 1664974776776,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -8496,6 +8496,65 @@ window.BENCHMARK_DATA = {
             "name": "nightly | Events processed per second: /Package/dummy_analysis/scripts",
             "value": 8.135141872778357,
             "unit": "Evt/s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "committer": {
+            "email": "laurent.forthomme@cern.ch",
+            "name": "Laurent Forthomme",
+            "username": "forthommel"
+          },
+          "distinct": true,
+          "id": "96f82b72dcca02579ea28efc0b1e82d363676e36",
+          "message": "Cleanup before review",
+          "timestamp": "2022-10-05T14:49:47+02:00",
+          "tree_id": "47d334ef8827af028c045cbeaa4e8e302016f472",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/96f82b72dcca02579ea28efc0b1e82d363676e36"
+        },
+        "date": 1664974774122,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Time spent running the analysis: case-studies/analysis_example/scripts",
+            "value": 10.863361120223999,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: case-studies/analysis_example/scripts"
+          },
+          {
+            "name": "nightly | Time spent running the analysis: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 12.483373641967773,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/higgs/mH-recoil/mumu"
+          },
+          {
+            "name": "nightly | Time spent running the analysis: examples/FCCee/flavour/Bc2TauNu",
+            "value": 15.713644981384277,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/flavour/Bc2TauNu"
+          },
+          {
+            "name": "nightly | Time spent running the analysis: examples/FCCee/test",
+            "value": 12.3753821849823,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/test"
+          },
+          {
+            "name": "nightly | Time spent running the analysis: /Package/dummy_analysis/scripts",
+            "value": 10.003026485443115,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: /Package/dummy_analysis/scripts"
           }
         ]
       }
