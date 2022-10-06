@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665069871884,
+  "lastUpdate": 1665069873331,
   "repoUrl": "https://github.com/forthommel/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -8771,6 +8771,55 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: /Package/dummy_analysis/scripts"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "clement.helsens@cern.ch",
+            "name": "Clement Helsens",
+            "username": "clementhelsens"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2edb88498e7cbe0d0a976a41e5c3f666205234e4",
+          "message": "Merge pull request #200 from forthommel/jet-clustering_refactor\n\nFurther stripping of FastJet components from RDF analysers",
+          "timestamp": "2022-10-06T12:10:34+02:00",
+          "tree_id": "982df180c1d6f5fa900e2c76df27d18730420765",
+          "url": "https://github.com/forthommel/FCCAnalyses/commit/2edb88498e7cbe0d0a976a41e5c3f666205234e4"
+        },
+        "date": 1665069872916,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: case-studies/analysis_example/scripts",
+            "value": 9.424616721271478,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 7.952731359501283,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 5.9997054149310225,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/test",
+            "value": 8.38195289703881,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: /Package/dummy_analysis/scripts",
+            "value": 9.658938448604124,
+            "unit": "Evt/s"
           }
         ]
       }
