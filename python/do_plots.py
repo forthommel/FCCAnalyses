@@ -346,15 +346,7 @@ def runPlots(config: dict[str, Any],
     for s in hsignal:
         leg.AddEntry(hsignal[s][0], script_module.legend[s], "l")
 
-    yields = {}
-    for s in hsignal:
-        yields[s] = [script_module.legend[s],
-                     hsignal[s][0].Integral(0, -1),
-                     hsignal[s][0].GetEntries()]
-    for b in hbackgrounds:
-        yields[b] = [script_module.legend[b],
-                     hbackgrounds[b][0].Integral(0, -1),
-                     hbackgrounds[b][0].GetEntries()]
+    yields = compute_yields(script_module, hsignal, hbackgrounds)
 
     histos = []
     colors = []
@@ -496,15 +488,7 @@ def runPlotsHistmaker(config: dict[str, Any],
     for s in hsignal:
         leg.AddEntry(hsignal[s][0], param.legend[s], "l")
 
-    yields = {}
-    for s in hsignal:
-        yields[s] = [param.legend[s],
-                     hsignal[s][0].Integral(0, -1),
-                     hsignal[s][0].GetEntries()]
-    for b in hbackgrounds:
-        yields[b] = [param.legend[b],
-                     hbackgrounds[b][0].Integral(0, -1),
-                     hbackgrounds[b][0].GetEntries()]
+    yields = compute_yields(param, hsignal, hbackgrounds)
 
     histos = []
     colors = []
@@ -1140,6 +1124,19 @@ def run(args):
                              hbackgrounds,
                              script_module.extralabel[sel])
         counter += 1
+
+
+def compute_yields(script_module, hsignal, hbackgrounds) -> dict[str, tuple[str, float, float]]:
+    yields = {}
+    for s in hsignal:
+        yields[s] = [script_module.legend[s],
+                     hsignal[s][0].Integral(0, -1),
+                     hsignal[s][0].GetEntries()]
+    for b in hbackgrounds:
+        yields[b] = [script_module.legend[b],
+                     hbackgrounds[b][0].Integral(0, -1),
+                     hbackgrounds[b][0].GetEntries()]
+    return yields
 
 
 def do_plots(parser):
