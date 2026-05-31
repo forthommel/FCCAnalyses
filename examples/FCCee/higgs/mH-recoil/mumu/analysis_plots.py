@@ -12,6 +12,7 @@ yaxis          = ['lin', 'log']
 stacksig       = ['stack', 'nostack']
 outdir         = 'outputs/FCCee/higgs/mH-recoil/mumu/plots/'
 plotStatUnc    = True
+latexCutflow   = True
 
 variables = ['mz',
              'mz_zoom',

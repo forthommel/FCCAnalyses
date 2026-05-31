@@ -1089,6 +1089,15 @@ def run(args):
 
     counter = 0
     LOGGER.info('Plotting staged analysis plots...')
+
+    latex_cutflow: bool = script_module.latexCutflow if hasattr(script_module, "latexCutflow") else False
+    if latex_cutflow:
+        try:
+            import latextable
+        except ModuleNotFoundError:
+            LOGGER.error("latextable module was not found. Disabling the dump of LaTeX cutflow.")
+            latex_cutflow = False
+    cutflow_content: dict[str, dict[str, tuple[float, float]]] = {}
     for var_index, var in enumerate(script_module.variables):
         for label, sels in script_module.selections.items():
             for sel in sels:
@@ -1115,6 +1124,11 @@ def run(args):
                          hbackgrounds,
                          script_module.extralabel[sel])
                 if counter == 0:
+                    if latex_cutflow:
+                        for sample_name, yields in compute_yields(script_module, hsignal, hbackgrounds).items():
+                            if sample_name not in cutflow_content.keys(): cutflow_content[sample_name] = dict()
+                            if sel not in cutflow_content[sample_name].keys(): cutflow_content[sample_name][sel] = dict()
+                            cutflow_content[sample_name][sel] = yields
                     runPlots(config,
                              args,
                              "AAAyields_"+label,
@@ -1124,6 +1138,29 @@ def run(args):
                              hbackgrounds,
                              script_module.extralabel[sel])
         counter += 1
+    if latex_cutflow:
+        cutflow_table = texttable.Texttable()
+        multicolumn_header: list[tuple[str, int]] = [("", 1)]
+        rows: list[list[str]] = []
+        for sample_name, sels in cutflow_content.items():
+            if len(multicolumn_header) < 2:
+                for sel in sels.keys(): multicolumn_header.append((sel, 2))
+                row = ["Sample"]
+                row.extend(["Yields", "Raw MC"] * len(sels))
+                rows.append(row)
+            row = [sample_name]
+            for sel, counts in sels.items():
+                row.extend([f"{counts[1]:f}", f"{counts[2]:f}"])
+            rows.append(row)
+
+        latex_cutflow: str = latextable.draw_latex(rows,
+                                                   use_booktabs=config.get("use-booktabs", False),
+                                                   multicolumn_header=multicolumn_header)
+        latex_output = config.get("latex-output", "")
+        if latex_output:
+            with open(latex_output, "w") as f:
+                f.write(latex_cutflow)
+        else: print(latex_cutflow)
 
 
 def compute_yields(script_module, hsignal, hbackgrounds) -> dict[str, tuple[str, float, float]]:
