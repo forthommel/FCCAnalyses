@@ -1,11 +1,24 @@
 var searchData=
 [
-  ['e_0',['E',['../classcontrib_1_1_valencia_brief_jet.html#a5cb3984592746914ca943b884d41f599',1,'contrib::ValenciaBriefJet']]],
-  ['env_5f_1',['env_',['../class_o_n_n_x_runtime.html#a6ba3c1c92420998ab594a025a91d4901',1,'ONNXRuntime']]],
-  ['exclusive_5fdmerge_2',['exclusive_dmerge',['../struct_jet_clustering_1_1_f_c_c_analyses_jet.html#a1189ad16fe57bc5dfbb628cae258c49b',1,'JetClustering::FCCAnalysesJet::exclusive_dmerge()'],['../namespace_f_c_c_analyses_1_1_jet_clustering_utils.html#a5d5f8ecc0edcd06a0f00d13eb2247c44',1,'FCCAnalyses::JetClusteringUtils::exclusive_dmerge()']]],
-  ['exclusive_5fdmerge_5fmax_3',['exclusive_dmerge_max',['../struct_jet_clustering_1_1_f_c_c_analyses_jet.html#a1ce87f1978b3e0dcbc6c7bdb5d43d61c',1,'JetClustering::FCCAnalysesJet']]],
-  ['exclusive_5fsequence_5fmeaningful_4',['exclusive_sequence_meaningful',['../classcontrib_1_1_valencia_plugin.html#a56681fca6d9ac382cc6aa025b3c8942b',1,'contrib::ValenciaPlugin']]],
-  ['externalrecombiner_5',['ExternalRecombiner',['../class_external_recombiner.html',1,'ExternalRecombiner'],['../class_external_recombiner.html#a066b2d58327c143b2c3e9f4d06e7ed2f',1,'ExternalRecombiner::ExternalRecombiner()']]],
-  ['externalrecombiner_2ecc_6',['ExternalRecombiner.cc',['../_external_recombiner_8cc.html',1,'']]],
-  ['externalrecombiner_2eh_7',['ExternalRecombiner.h',['../_external_recombiner_8h.html',1,'']]]
+  ['data_0',['data',['../structmplt_1_1Sample.html#a73e5369e2cbe131c4207206b9cf71314a8d777f385d3dfec8815d20f7496026dc',1,'mplt::Sample']]],
+  ['data_5f_1',['data_',['../classWeaverInterface.html#ab3d9bc4d49ce82a766ed8ccaf853c340',1,'WeaverInterface']]],
+  ['debug_5fme_2',['debug_me',['../namespaceFCCAnalyses_1_1VertexFinderLCFIPlus.html#a0ae91163ef46e5a215f7bdf8722135d8',1,'FCCAnalyses::VertexFinderLCFIPlus']]],
+  ['define_3',['define',['../classjetClusteringHelper_1_1ExclusiveJetClusteringHelper.html#ad6c66277a80008af24dff6953e7e5b1d',1,'jetClusteringHelper.ExclusiveJetClusteringHelper.define()'],['../classjetFlavourHelper_1_1JetFlavourHelper.html#a0ab17bf37132b0f2e58aad770827f4ce',1,'jetFlavourHelper.JetFlavourHelper.define()']]],
+  ['defines_2eh_4',['Defines.h',['../Defines_8h.html',1,'']]],
+  ['definition_5',['definition',['../classjetClusteringHelper_1_1ExclusiveJetClusteringHelper.html#af3b225d643c8f5a357c98c70e021c187',1,'jetClusteringHelper.ExclusiveJetClusteringHelper.definition'],['../classjetFlavourHelper_1_1JetFlavourHelper.html#a98b24f73c63b06a6c0bcd777a2bd9c96',1,'jetFlavourHelper.JetFlavourHelper.definition']]],
+  ['delphes2edm4hep_5ftrackcovmatrix_6',['Delphes2Edm4hep_TrackCovMatrix',['../namespaceFCCAnalyses_1_1VertexingUtils.html#a789423b2190f9ee2ccd0d35d249ee4e9',1,'FCCAnalyses::VertexingUtils']]],
+  ['delphes2edm4hep_5ftrackparam_7',['Delphes2Edm4hep_TrackParam',['../namespaceFCCAnalyses_1_1VertexingUtils.html#ac8e66e7bc04f560ca1fa622d6844f93e',1,'FCCAnalyses::VertexingUtils']]],
+  ['description_8',['description',['../classExternalRecombiner.html#a5a7816ddeabf4cd63848fd5447fc269d',1,'ExternalRecombiner::description()'],['../classcontrib_1_1ValenciaPlugin.html#ab75c117030f3a8b4f77ca4bb38ae87b8',1,'contrib::ValenciaPlugin::description()']]],
+  ['dib_9',['diB',['../classcontrib_1_1ValenciaBriefJet.html#afa3d3d03ef24f400ce8ce8abc36a45a6',1,'contrib::ValenciaBriefJet']]],
+  ['distance_10',['distance',['../classcontrib_1_1ValenciaBriefJet.html#a7bfb7f2e19ee5c1934d393e07f7251ad',1,'contrib::ValenciaBriefJet']]],
+  ['dndx_11',['dndx',['../classjetFlavourHelper_1_1JetFlavourHelper.html#af75e76fe5d205c9c9b5a6c7d106675ac',1,'jetFlavourHelper::JetFlavourHelper']]],
+  ['documentation_12',['Documentation',['../index.html#autotoc_md6',1,'']]],
+  ['dot_13',['dot',['../structFCCAnalyses_1_1Algorithms_1_1calculate__thrust.html#ab2dbfe2ed921b70a68ec510eb0998dea',1,'FCCAnalyses::Algorithms::calculate_thrust']]],
+  ['down_5fshape_14',['down_shape',['../classmplt_1_1SystematicsSet.html#a0167bea5c6b1dad489e122ac0a4e3bfb',1,'mplt::SystematicsSet']]],
+  ['down_5fshape_5f_15',['down_shape_',['../classShapeSystematics.html#a7652c76205ecbce78704d78f7ac4a2be',1,'ShapeSystematics']]],
+  ['draw_5fsamples_5fstack_16',['draw_samples_stack',['../namespacemplt_1_1root_1_1utils.html#ab8c3e5c31248aefc40557eaa3a0ae98c',1,'mplt::root::utils']]],
+  ['dummyloader_17',['dummyLoader',['../dummyLoader_8h.html#a13655070a3dd083e1c4d47ff51d3172e',1,'dummyLoader():&#160;dummyLoader.cc'],['../dummyLoader_8cc.html#a13655070a3dd083e1c4d47ff51d3172e',1,'dummyLoader():&#160;dummyLoader.cc']]],
+  ['dummyloader_2ecc_18',['dummyLoader.cc',['../dummyLoader_8cc.html',1,'']]],
+  ['dummyloader_2eh_19',['dummyLoader.h',['../dummyLoader_8h.html',1,'']]],
+  ['dumpvars_20',['dumpVars',['../structWeaverInterface_1_1PreprocessParams.html#a77c0608048b2e84238c621cc29b02d45',1,'WeaverInterface::PreprocessParams']]]
 ];

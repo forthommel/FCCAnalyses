@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['updated_5ftrack_5fmomentum_5fat_5fvertex_0',['updated_track_momentum_at_vertex',['../struct_f_c_c_analyses_1_1_vertexing_utils_1_1_f_c_c_analyses_vertex.html#a4d59eed6b00046f7ccc09e4f08e193e4',1,'FCCAnalyses::VertexingUtils::FCCAnalysesVertex']]],
-  ['updated_5ftrack_5fparameters_1',['updated_track_parameters',['../struct_f_c_c_analyses_1_1_vertexing_utils_1_1_f_c_c_analyses_vertex.html#afcdb8f62acb2fd515dc5197e969204af',1,'FCCAnalyses::VertexingUtils::FCCAnalysesVertex']]],
-  ['upper_5fbound_2',['upper_bound',['../struct_weaver_interface_1_1_preprocess_params_1_1_var_info.html#aa418eeafc4cdefdb0a3f4b86875aab14',1,'WeaverInterface::PreprocessParams::VarInfo']]]
+  ['samples_5f_0',['samples_',['../classmplt_1_1MultiPlotter.html#ae24620cd754d21471382c995d20c3fba',1,'mplt::MultiPlotter::samples_'],['../classmplt_1_1Stack.html#a475785102a642fd3b676f06711da5a6e',1,'mplt::Stack::samples_']]],
+  ['scores_1',['scores',['../classjetFlavourHelper_1_1JetFlavourHelper.html#a03d8edf0968c8bcbbfc05af186c35637',1,'jetFlavourHelper::JetFlavourHelper']]],
+  ['session_5f_2',['session_',['../classONNXRuntime.html#a1080c3c16ae934976fcef0af5181110f',1,'ONNXRuntime']]],
+  ['systematics_3',['systematics',['../structmplt_1_1Sample.html#a4e58fbcdd069c70fc71fd6aacc19daaf',1,'mplt::Sample']]]
 ];

@@ -1,0 +1,5 @@
+<map id="mplt::SystematicsSet" name="mplt::SystematicsSet">
+<area shape="rect" id="Node000001" title="Systematics distributions: nominal, +1sigma, and &#45;1sigma shapes." alt="" coords="12,285,173,312"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,180,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,49,95,285,90,285,90,49"/>
+</map>

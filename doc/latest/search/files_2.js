@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['dummyloader_2ecc_0',['dummyLoader.cc',['../dummy_loader_8cc.html',1,'']]],
-  ['dummyloader_2eh_1',['dummyLoader.h',['../dummy_loader_8h.html',1,'']]],
-  ['dummyloadercs_2ecc_2',['dummyLoaderCS.cc',['../dummy_loader_c_s_8cc.html',1,'']]],
-  ['dummyloadercs_2eh_3',['dummyLoaderCS.h',['../dummy_loader_c_s_8h.html',1,'']]]
+  ['calontupleizer_2ecc_0',['CaloNtupleizer.cc',['../CaloNtupleizer_8cc.html',1,'']]],
+  ['calontupleizer_2eh_1',['CaloNtupleizer.h',['../CaloNtupleizer_8h.html',1,'']]],
+  ['classes_2eh_2',['classes.h',['../classes_8h.html',1,'']]]
 ];

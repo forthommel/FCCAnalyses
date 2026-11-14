@@ -1,0 +1,20 @@
+<map id="addons/MultiPlotter/MultiPlotter/MultiPlotter.h" name="addons/MultiPlotter/MultiPlotter/MultiPlotter.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="256,5,448,50"/>
+<area shape="rect" id="Node000002" href="$Sample_8h.html" title=" " alt="" coords="271,98,433,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="355,50,355,82,349,82,349,50"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,174,163,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="305,129,147,172,146,167,303,124"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="370,249,428,277"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="302,129,268,142,239,158,229,168,223,178,222,188,228,200,253,225,286,242,321,252,354,257,353,263,320,257,284,247,250,229,223,203,217,189,218,176,224,164,236,154,266,137,301,124"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="237,174,334,201"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="342,128,309,164,305,160,338,124"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="357,174,480,201"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="366,124,399,160,395,164,362,128"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="505,174,567,201"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="386,124,491,166,489,171,384,129"/>
+<area shape="rect" id="Node000008" href="$Systematics_8h.html" title=" " alt="" coords="591,174,785,201"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="413,124,613,167,612,172,412,129"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="637,205,443,253,442,248,635,199"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="650,249,726,277"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="691,202,691,234,685,234,685,202"/>
+</map>

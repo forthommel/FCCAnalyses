@@ -1,0 +1,23 @@
+<map id="addons/MultiPlotter/MultiPlotter/plotItPlotter.h" name="addons/MultiPlotter/MultiPlotter/plotItPlotter.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="122,5,315,50"/>
+<area shape="rect" id="Node000002" href="$MultiPlotter_8h.html" title=" " alt="" coords="174,98,362,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,49,255,83,250,86,229,52"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,249,163,277"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="201,52,164,99,124,172,97,236,92,234,120,170,159,97,196,49"/>
+<area shape="rect" id="Node000003" href="$Sample_8h.html" title=" " alt="" coords="204,174,366,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="274,126,281,158,276,159,269,127"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="250,204,135,246,133,241,248,199"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="370,325,428,353"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="267,204,248,219,232,237,223,257,223,266,228,275,253,301,286,317,321,328,354,333,353,338,320,333,284,322,250,305,223,279,218,268,218,256,227,235,245,215,264,200"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="237,249,334,277"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="288,202,288,234,283,234,283,202"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="357,249,480,277"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="310,200,383,240,381,244,308,204"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="505,249,567,277"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="331,199,491,246,489,251,329,204"/>
+<area shape="rect" id="Node000009" href="$Systematics_8h.html" title=" " alt="" coords="591,249,785,277"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="358,199,601,243,600,249,357,205"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="637,280,443,329,442,324,635,275"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="650,325,726,353"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="691,278,691,309,685,309,685,278"/>
+</map>

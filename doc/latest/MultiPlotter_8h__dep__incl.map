@@ -1,0 +1,12 @@
+<map id="addons/MultiPlotter/MultiPlotter/MultiPlotter.h" name="addons/MultiPlotter/MultiPlotter/MultiPlotter.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="118,5,310,50"/>
+<area shape="rect" id="Node000002" href="$plotItPlotter_8h.html" title=" " alt="" coords="118,98,311,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,66,217,98,212,98,212,66"/>
+<area shape="rect" id="Node000003" href="$classes_8h.html" title=" " alt="" coords="5,191,154,235"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="152,61,128,78,108,100,96,122,89,146,82,190,77,190,84,145,92,120,104,96,125,74,149,56"/>
+<area shape="rect" id="Node000005" href="$MultiPlotter_8cc.html" title=" " alt="" coords="335,98,483,143"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="276,55,363,95,361,100,274,59"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="171,154,113,193,110,188,168,149"/>
+<area shape="rect" id="Node000004" href="$plotItPlotter_8cc.html" title=" " alt="" coords="177,191,326,235"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="231,156,245,189,240,192,226,158"/>
+</map>

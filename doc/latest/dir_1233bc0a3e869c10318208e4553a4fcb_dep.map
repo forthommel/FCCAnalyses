@@ -1,8 +1,12 @@
 <map id="addons" name="addons">
-<area shape="rect" id="node2" href="dir_582ea236d635d8d6ee0286241c4903aa.html" title="FastJet" alt="" coords="165,27,237,75"/>
-<area shape="rect" id="node4" href="dir_3d03528d2400acc3fc02bc2b11bada0c.html" title="analyzers" alt="" coords="100,123,185,171"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000005_000001.html" title="1" alt="" coords="169,104,178,119"/>
-<area shape="rect" id="node3" href="dir_07c81203795ae4b092cd84065b2373bb.html" title="ONNXRuntime" alt="" coords="27,27,141,75"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000008_000001.html" title="1" alt="" coords="121,95,131,110"/>
-<area shape="rect" id="clust1" href="dir_1233bc0a3e869c10318208e4553a4fcb.html" alt="" coords="16,16,344,85"/>
+<area shape="rect" id="node2" href="dir_582ea236d635d8d6ee0286241c4903aa.html" title="FastJet" alt="" coords="120,27,184,54"/>
+<area shape="rect" id="node6" href="dir_3d03528d2400acc3fc02bc2b11bada0c.html" title="analyzers" alt="" coords="227,102,312,130"/>
+<area shape="poly" id="edge1" href="dir_000003_000001.html" alt="" coords="174,53,237,92,235,96,172,57"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000003_000001.html" title="1" alt="" coords="234,77,242,94"/>
+<area shape="rect" id="node3" href="dir_2ccd81f06fd77c7c6d8d26de15886632.html" title="MultiPlotter" alt="" coords="209,27,306,54"/>
+<area shape="rect" id="node4" href="dir_07c81203795ae4b092cd84065b2373bb.html" title="ONNXRuntime" alt="" coords="330,27,446,54"/>
+<area shape="poly" id="edge2" href="dir_000007_000001.html" alt="" coords="368,57,304,96,302,92,365,53"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000007_000001.html" title="1" alt="" coords="306,91,314,108"/>
+<area shape="rect" id="node5" href="dir_44afe0fcdf3e76c82cef1208b2318c93.html" title="TMVAHelper" alt="" coords="469,27,571,54"/>
+<area shape="rect" id="clust1" href="dir_1233bc0a3e869c10318208e4553a4fcb.html" alt="" coords="16,16,581,65"/>
 </map>

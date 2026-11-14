@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['smearing_2ecc_0',['Smearing.cc',['../_smearing_8cc.html',1,'']]],
-  ['smearing_2eh_1',['Smearing.h',['../_smearing_8h.html',1,'']]]
+  ['plotitplotter_2ecc_0',['plotItPlotter.cc',['../plotItPlotter_8cc.html',1,'']]],
+  ['plotitplotter_2eh_1',['plotItPlotter.h',['../plotItPlotter_8h.html',1,'']]]
 ];

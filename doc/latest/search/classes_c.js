@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['thrustfit_0',['thrustFit',['../struct_f_c_c_analyses_1_1_algorithms_1_1thrust_fit.html',1,'FCCAnalyses::Algorithms']]]
+  ['recoilbuilder_0',['recoilBuilder',['../structFCCAnalyses_01_1_1PodioSource_01_1_1ReconstructedParticle_1_1recoilBuilder.html',1,'FCCAnalyses ::PodioSource ::ReconstructedParticle::recoilBuilder'],['../structFCCAnalyses_01_1_1ReconstructedParticle_1_1recoilBuilder.html',1,'FCCAnalyses ::ReconstructedParticle::recoilBuilder'],['../structFCCAnalyses_1_1JetClusteringUtils_1_1recoilBuilder.html',1,'FCCAnalyses::JetClusteringUtils::recoilBuilder']]],
+  ['recoparticlepair_1',['RecoParticlePair',['../structAnalysisFCChh_1_1RecoParticlePair.html',1,'AnalysisFCChh']]],
+  ['resonancebuilder_2',['resonanceBuilder',['../structFCCAnalyses_01_1_1PodioSource_01_1_1ReconstructedParticle_1_1resonanceBuilder.html',1,'FCCAnalyses ::PodioSource ::ReconstructedParticle::resonanceBuilder'],['../structFCCAnalyses_01_1_1ReconstructedParticle_1_1resonanceBuilder.html',1,'FCCAnalyses ::ReconstructedParticle::resonanceBuilder'],['../structFCCAnalyses_1_1JetClusteringUtils_1_1resonanceBuilder.html',1,'FCCAnalyses::JetClusteringUtils::resonanceBuilder']]],
+  ['rootcanvas_3',['ROOTCanvas',['../classmplt_1_1ROOTCanvas.html',1,'mplt']]]
 ];

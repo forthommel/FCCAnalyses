@@ -1,0 +1,7 @@
+<map id="mplt::Systematics" name="mplt::Systematics">
+<area shape="rect" id="Node000001" title="Systematics computation object." alt="" coords="5,200,145,228"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="32,99,118,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,143,78,199,72,199,72,143"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="6,5,144,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,65,78,99,72,99,72,65"/>
+</map>

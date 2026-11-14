@@ -1,0 +1,15 @@
+<map id="mplt::ROOTCanvas" name="mplt::ROOTCanvas">
+<area shape="rect" id="Node000001" title="Enhanced ROOT TCanvas object." alt="" coords="658,87,801,114"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="384,5,460,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="476,20,552,30,635,50,673,66,706,84,704,88,671,71,633,55,551,35,476,26"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="321,57,524,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="540,80,658,91,657,96,539,85"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="334,109,511,154"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="526,127,634,119,670,112,671,118,634,124,527,133"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,117,204,145"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="220,128,333,128,333,134,220,134"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="334,178,511,223"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="526,185,580,173,633,156,674,135,708,113,711,117,677,140,635,161,581,178,527,190"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="8,187,201,214"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="216,198,333,198,333,203,216,203"/>
+</map>

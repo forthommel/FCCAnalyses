@@ -1,0 +1,27 @@
+<map id="addons/MultiPlotter/src/classes.h" name="addons/MultiPlotter/src/classes.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="342,5,490,50"/>
+<area shape="rect" id="Node000002" href="$MultiPlotter_8h.html" title=" " alt="" coords="363,174,551,201"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="424,50,444,125,452,158,447,159,438,126,419,51"/>
+<area shape="rect" id="Node000003" href="$Sample_8h.html" title=" " alt="" coords="244,249,406,277"/>
+<area shape="poly" id="edge11_Node000001_Node000003" title=" " alt="" coords="407,52,381,107,353,175,334,235,329,233,348,173,376,105,402,50"/>
+<area shape="rect" id="Node000011" href="$plotItPlotter_8h.html" title=" " alt="" coords="453,98,642,126"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="452,48,515,87,513,92,449,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="435,204,363,244,361,239,432,200"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="598,325,756,353"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="389,275,599,319,598,324,388,280"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="159,401,217,428"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="244,272,177,278,109,289,52,305,31,315,16,327,9,342,11,355,23,367,41,378,91,394,143,405,142,410,90,399,39,383,20,371,7,358,3,341,12,323,28,311,50,300,108,284,177,273,243,266"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="26,325,123,353"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="281,280,135,323,133,318,280,275"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="146,325,269,353"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="306,280,242,319,240,315,303,275"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="294,325,356,353"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="328,278,328,309,322,309,322,278"/>
+<area shape="rect" id="Node000009" href="$Systematics_8h.html" title=" " alt="" coords="380,325,574,353"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="353,275,438,316,435,320,351,280"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="426,356,232,405,231,400,424,351"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="439,401,515,428"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="480,353,480,385,474,385,474,353"/>
+<area shape="poly" id="edge13_Node000011_Node000002" title=" " alt="" coords="533,128,487,166,483,162,530,124"/>
+<area shape="poly" id="edge14_Node000011_Node000004" title=" " alt="" coords="557,125,664,310,660,313,553,127"/>
+</map>

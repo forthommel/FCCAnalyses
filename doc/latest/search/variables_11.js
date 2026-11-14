@@ -1,7 +1,12 @@
 var searchData=
 [
-  ['var_5finfo_5fmap_0',['var_info_map',['../struct_weaver_interface_1_1_preprocess_params.html#a3ecb107c2650ca4e8bb5d4ff2e5ab834',1,'WeaverInterface::PreprocessParams']]],
-  ['var_5fnames_1',['var_names',['../struct_weaver_interface_1_1_preprocess_params.html#a03a92e634483a0955167d0e6c30c2527',1,'WeaverInterface::PreprocessParams']]],
-  ['variables_5fnames_5f_2',['variables_names_',['../class_weaver_interface.html#a7760db24a6e73f1c7bd994e60c950778',1,'WeaverInterface']]],
-  ['vertex_3',['vertex',['../struct_f_c_c_analyses_1_1my_utils_1_1_f_c_c_analyses_composite.html#a71cf10d8ab6fd7c4f622e9247127f6cc',1,'FCCAnalyses::myUtils::FCCAnalysesComposite::vertex()'],['../struct_f_c_c_analyses_1_1my_utils_1_1_f_c_c_analyses_composite2.html#a662c429d8cf5332aa9267c2bef9a41d7',1,'FCCAnalyses::myUtils::FCCAnalysesComposite2::vertex()'],['../struct_f_c_c_analyses_1_1_vertexing_utils_1_1_f_c_c_analyses_vertex.html#af6ba4d82554b370457f55a3d26129cd7',1,'FCCAnalyses::VertexingUtils::FCCAnalysesVertex::vertex()'],['../struct_f_c_c_analyses_1_1_vertexing_utils_1_1_f_c_c_analyses_vertex_m_c.html#ada7977da53ca1a360e7c7a76a66d9c32',1,'FCCAnalyses::VertexingUtils::FCCAnalysesVertexMC::vertex()']]]
+  ['tag_0',['tag',['../classjetClusteringHelper_1_1ExclusiveJetClusteringHelper.html#ad14da5c9c90b368b04b0a399dfb1e271',1,'jetClusteringHelper.ExclusiveJetClusteringHelper.tag'],['../classjetFlavourHelper_1_1JetFlavourHelper.html#a028308fd24df1910d4bbc6bf1a89e284',1,'jetFlavourHelper.JetFlavourHelper.tag']]],
+  ['text_5fboxes_5f_1',['text_boxes_',['../classmplt_1_1MultiPlotter.html#a0817a54c19d680dce9a8a8dd868623ad',1,'mplt::MultiPlotter::text_boxes_'],['../classmplt_1_1ROOTCanvas.html#a5c1525b31ffc136c23e1b70b6ed4969e',1,'mplt::ROOTCanvas::text_boxes_']]],
+  ['tmva_5fhelper_2',['tmva_helper',['../classTMVAHelper_1_1TMVAHelperXGB.html#a18c88610b777b0a291c45aa3ec253599',1,'TMVAHelper::TMVAHelperXGB']]],
+  ['trackerhits_3',['trackerhits',['../classjetFlavourHelper_1_1JetFlavourHelper.html#a45d9eb952af26cf5d1645102c4b4722f',1,'jetFlavourHelper::JetFlavourHelper']]],
+  ['trackstate_4',['trackstate',['../classjetFlavourHelper_1_1JetFlavourHelper.html#abc933246af19358d4c31e35c035da1ff',1,'jetFlavourHelper::JetFlavourHelper']]],
+  ['true_5fdown_5fshape_5f_5',['true_down_shape_',['../classmplt_1_1SystematicsSet.html#acba0dc06a44ec0c6d3e9112bd316cb29',1,'mplt::SystematicsSet']]],
+  ['true_5fnominal_5fshape_5f_6',['true_nominal_shape_',['../classmplt_1_1SystematicsSet.html#a2a03882bb3e816ed9c28fdba58266efc',1,'mplt::SystematicsSet']]],
+  ['true_5fup_5fshape_5f_7',['true_up_shape_',['../classmplt_1_1SystematicsSet.html#acb321ac60724855e3d457fb508b48728',1,'mplt::SystematicsSet']]],
+  ['type_8',['type',['../structmplt_1_1Sample.html#ab1359ddf91d7cda3473223b2b097e80c',1,'mplt::Sample::type'],['../classmplt_1_1Systematics.html#aa4b87870df7e73ba877358f64836d2e3',1,'mplt::Systematics::type']]]
 ];
